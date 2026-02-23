@@ -31,98 +31,92 @@ body {
 /* ===== Numéro 2 ===== */
 .wrapper {
     max-width: 1100px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0px auto 0px auto;
 }
 
 
 /*------------------------------------------------------------------------------
    Modules
 ------------------------------------------------------------------------------*/
-
+header {
+   padding: 20 0 0 20;
+}
 /* ===== Numéro 3a ===== */
 header .wrapper {
+display: flex;
+align-items: center;
+justify-content: space-between;
 
 }
 
 /* ===== Numéro 3b ===== */
 .logo {
-
+display: flex;
+align-items: center;
+gap: 20px;
+font: 700 2.5rem "nunito", sans-serif;  
+text-decoration: none;
+color: #444;
 }
 
 /* ===== Numéro 3c ===== */
-/*
-.menu ul {
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-right: 0;
-    margin-left: 0;
 
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-right: 0;
-    padding-left: 0;
+.menu ul {
+    margin: 0px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 0px;
 }
-*/
+
 
 /* ===== Numéro 3d ===== */
-/*
+
 .menu a {
     color: black;
     font-weight: bold;
     font-size: 14px;
     font-family: 'PT Sans', sans-serif;
-    padding-top: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 5px;
+    font: 700, 0.875rem 'PT sans', 'sans-serif';
+    padding: 10px 5px 5px 10px;
     text-transform: uppercase;
     text-decoration: none;
+     border-top:2px solid transparent;
+    border-right:2px solid transparent;
+    border-bottom:2px solid transparent;
+    border-left:2px solid transparent;
 }
-*/
+
 
 /* ===== Numéro 3e ===== */
-/*
+
 .menu a:hover {
-    border-top-color: #000;
-    border-right-color: black;
-    border-bottom-color: #000;
-    border-left-color: black;
-    border-top-style: solid;
-    border-right-style: solid;
-    border-left-style: solid;
-    border-bottom-style: solid;
-    border-top-width: 2px;
-    border-right-width: 2px;
-    border-bottom-width: 2px;
-    border-left-width: 2px;
+    border-top:2px solid #000 ;
+    border-right:2px solid black;
+    border-bottom:2px solid #000;
+    border-left:2px solid #000;
+    
 }
-*/
+
 
 /* ===== Numéro 3f ===== */
-/*
-header {
-    padding-top: 20px;
-    padding-left: 0;
-    padding-right: 0;
-    padding-bottom: 20px;
-}
-*/
+
+
+
 
 /* ===== Numéro 4a ===== */
-/*
+
 .hero {
-    background-image: url('../images/hero.jpg');
-    background-position: center right;
-    background-repeat: no-repeat;
+    background: url(../images/hero.jpg) no-repeat center right/cover;
+    
 }
-*/
+
 
 /* ===== Numéro 4b ===== */
 .hero .wrapper {
-
+display: flex;
+max-height: 650px;
 }
 
 /* ===== Numéro 4c ===== */
