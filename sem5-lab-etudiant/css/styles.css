@@ -39,24 +39,25 @@ body {
    Modules
 ------------------------------------------------------------------------------*/
 header {
-   padding: 20 0 0 20;
+    padding: 20 0 0 20;
 }
+
 /* ===== Numéro 3a ===== */
 header .wrapper {
-display: flex;
-align-items: center;
-justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
 }
 
 /* ===== Numéro 3b ===== */
 .logo {
-display: flex;
-align-items: center;
-gap: 20px;
-font: 700 2.5rem "nunito", sans-serif;  
-text-decoration: none;
-color: #444;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font: 700 2.5rem "nunito", sans-serif;
+    text-decoration: none;
+    color: #444;
 }
 
 /* ===== Numéro 3c ===== */
@@ -82,21 +83,21 @@ color: #444;
     padding: 10px 5px 5px 10px;
     text-transform: uppercase;
     text-decoration: none;
-     border-top:2px solid transparent;
-    border-right:2px solid transparent;
-    border-bottom:2px solid transparent;
-    border-left:2px solid transparent;
+    border-top: 2px solid transparent;
+    border-right: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    border-left: 2px solid transparent;
 }
 
 
 /* ===== Numéro 3e ===== */
 
 .menu a:hover {
-    border-top:2px solid #000 ;
-    border-right:2px solid black;
-    border-bottom:2px solid #000;
-    border-left:2px solid #000;
-    
+    border-top: 2px solid #000;
+    border-right: 2px solid black;
+    border-bottom: 2px solid #000;
+    border-left: 2px solid #000;
+
 }
 
 
@@ -109,95 +110,83 @@ color: #444;
 
 .hero {
     background: url(../images/hero.jpg) no-repeat center right/cover;
-    
+
 }
 
 
 /* ===== Numéro 4b ===== */
 .hero .wrapper {
-display: flex;
-max-height: 650px;
+    display: flex;
+    flex-direction: column;
+    min-height: 650px;
+    justify-content: center;
 }
 
 /* ===== Numéro 4c ===== */
 .hero .contenu {
-
+    max-width: 50%;
+    color: white;
 }
 
 /* ===== Numéro 4d ===== */
-/*
-.hero h1 {
-    font-weight: 100;
-    font-size: 100px;
-    line-height: 100%;
 
-    font-family: Nunito, sans-serif;
-    margin-top: 0;
-    margin-bottom: 20px;
-    margin-left: 0;
-    margin-right: 0;
+.hero h1 {
+    font: 100 6.25rem/100% Nunito, sans-serif;
+    margin : 0px 0px 20px;
+
+
+
     color: #F2545B;
 }
-*/
+
 
 /* ===== Numéro 5a ===== */
-/*
-.athletes h2 {
-    font-family: Nunito, sans-serif;
-    font-weight: bold;
-    font-size: 50px;
-    margin-top: 0;
-    margin-bottom: 50px;
-    margin-left: 0;
-    margin-right: 0;
+.athletes {
+    padding: 100px 0px;
 }
-*/
+.athletes h2 {
+    font: bold 3.125rem Nunito, sans-serif;
+    letter-spacing: 0.05em;
+    margin : 0px 0px 50px;
+}
+
 
 /* ===== Numéro 5b ===== */
-/*
+
 .athletes p {
-    margin-right: 0;
-    margin-bottom: 50px;
-    margin-top: 0;
-    margin-left: 0;
+    margin: 0px 0px 50px;
 }
-*/
+
 
 /* ===== Numéro 5c ===== */
-/*
-.athletes {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-left: 0;
-    padding-right: 0;
-}
-*/
+
+
+
 
 
 /* ===== Numéro 5d ===== */
 .athletes-photos {
-
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
 }
 
 /* ===== Numéro 5e ===== */
 .athletes-photos img {
-
+    max-width: 100%;
 }
 
 /* ===== Numéro 5f ===== */
 .athlete1 {
-
+    grid-column: span 2 ;
+    grid-row: span 2;
 }
 
 
 /* ===== Numéro 6a ===== */
-footer {
+footer {}
 
-}
-
-footer .wrapper {
-
-}
+footer .wrapper {}
 
 /* ===== Numéro 6b ===== */
 /*
@@ -217,9 +206,7 @@ footer .wrapper {
 
 /* ===== Numéro 6c ===== */
 
-footer .wrapper .menu-social a {
-
-}
+footer .wrapper .menu-social a {}
 
 /* ===== Numéro 6d ===== */
 /*
